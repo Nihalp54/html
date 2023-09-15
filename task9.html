@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Online Job Registration Portal</h2>
+    <p>Register yourself to get new job updates</p>
+    <form action="" method="POST">
+        <table>
+
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="full_name" placeholder="First Name " required> <input type="text" placeholder="Last Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Street Address</td>
+                <td><textarea name="" id="" cols="30" rows="10" required></textarea> <br>
+                    City<input type="text"> State<input type="text"> <br> <br>
+                    Pincode <input type="text">
+                    Country
+                    <select name="country" required>
+                        <option value="">-select-</option>
+                        <option value="India">India</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mobile</td>
+                <td><input type="tel" name="mobile" placeholder="Mobile" required></td>
+            </tr>
+
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email" placeholder="E-mail" required></td>
+            </tr>
+            
+            <tr>
+                <td>Skill Level</td>
+                <td>
+                    <select name="skill_level">
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="Post-graduate">Post-graduate</option>
+                        <option value="Diploma/Technical">Diploma/Technical</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
